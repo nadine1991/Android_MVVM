@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:background = "@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="10dip"
+            android:id="@+id/linear_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <!-- Text Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Category:"
+                android:layout_marginBottom="5dp"
+                />
+            <!-- Spinner Element -->
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="20px"
+                android:layout_margin="10px"
+
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id = "@+id/recycleViewStagged"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:outlineAmbientShadowColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+
+</layout>
+
+
+
