@@ -1,7 +1,8 @@
 # Android_MVVM
 
 
-My last test for a company, I got failed but I have learned new techniques 😊
+Android Dog Breed App:
+The app is fetching the images and data from dog breed api in a dropdown list, the user can pick one of them and added its image by id to the recycle view, I have used the MVVM architecture since it preserves the state of the UI and seperate logic from UI...
 ☆ MVVM
 ☆ Coroutines
 ☆ Retrofit
